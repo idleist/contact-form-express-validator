@@ -53,9 +53,17 @@ section h2 {
   text-align: center;
 }
 
-#contact {
-  background: url("/assets/svg/contactbg.svg") no-repeat;
-  background-size: 100%;
+.sentMessage {
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  margin-bottom: 1.5em;
+}
+
+.sentMessage p {
+  font-size: 1.2em;
+  color: red;
 }
 
 form {

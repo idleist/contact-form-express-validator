@@ -84,9 +84,17 @@ section {
   }
 }
 
-#contact {
-  background: url("/assets/svg/contactbg.svg") no-repeat;
-  background-size: 100%;
+.sentMessage {
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  background: rgba(#fff, 0.8);
+  margin-bottom: 1.5em;
+
+  p {
+    font-size: 1.2em;
+    color: red;
+  }
 }
 
 // Form CSS
