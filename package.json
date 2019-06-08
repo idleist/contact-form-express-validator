@@ -1,0 +1,19 @@
+{
+  "name": "form-validation",
+  "version": "1.0.0",
+  "description": "form validation with express validator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Rugman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.2.1",
+    "path": "^0.12.7",
+    "pug": "^2.0.3"
+  }
+}

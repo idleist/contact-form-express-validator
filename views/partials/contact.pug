@@ -1,0 +1,16 @@
+section#contact
+    #form--container
+        .form--container
+            h2.form--heading Contact
+            .sentMessage=msg
+            form(method='POST', action='contact/send')
+                .form--input-container
+                    input(type='text', name='name' required)
+                    label Name  
+                .form--input-container
+                    input(type='email', name='email' required)
+                    label Email  
+                .form--input-container
+                    textarea(name="message" required)
+                    label Message
+                input(type='submit' value='SEND MESSAGE') 
